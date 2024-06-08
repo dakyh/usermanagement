@@ -1,0 +1,139 @@
+body {
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdf6f9;
+  color: #4a4a4a;
+}
+
+header {
+  background: linear-gradient(to right, #ff69b4, #ff1493);
+  color: rgb(255, 128, 255);
+  padding: 20px;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+nav {
+  background-color: #ffe4e1;
+  padding: 10px;
+}
+
+nav ul {
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+nav ul li.active a {
+  background-color: #ffb6c1;
+  border-radius: 4px;
+}
+
+nav ul li a {
+  color: #d14577;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+nav ul li a:hover {
+  color: #ff1493;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1em;
+}
+
+table tr:nth-child(even) {
+  background-color: #ffe4e1;
+}
+
+table tr:hover {
+  background-color: #ffcccb;
+}
+
+table th, table td {
+  border: 1px solid #ffb6c1;
+  padding: 12px;
+  text-align: left;
+}
+
+a {
+  color: #ff69b4;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff1493;
+}
+
+.empty-message {
+  color: #ff1493;
+  font-weight: bold;
+  border: 1px solid #ffb6c1;
+  padding: 10px;
+  background-color: #ffe4e1;
+}
+
+section {
+  padding: 20px;
+  margin: 20px auto;
+  width: 70%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="submit"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ffb6c1;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+footer {
+  background-color: #ff69b4;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #ffb6c1;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Styles pour les messages d'alerte */
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.alert-success {
+    color: rgb(255, 128, 128);
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+/* Styles pour les messages d'alerte d'échec */
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
